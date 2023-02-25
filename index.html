@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cartoon Game</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Catch The Cartoon Character</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+    <div class="screen">
+      <h1>Choose A Cartoon Character</h1>
+      <ul class="character-list">
+        <li>
+          <button class="choose-character-btn">
+            <p>Homer</p>
+            <img src="./images/homer.png" alt="homer" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-character-btn">
+            <p>Donkey</p>
+            <img src="./images/donkey.png" alt="donkey" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-character-btn">
+            <p>Goofy</p>
+            <img src="./images/goofy.png" alt="goofy" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-character-btn">
+            <p>Bart</p>
+            <img src="./images/bart.png" alt="bart" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-character-btn">
+            <p>Spongebob</p>
+            <img src="./images/spongebob.png" alt="spongebob" />
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div id="game-container" class="screen game-container" >
+      <h3 id="time" class="time">Time: 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="message" class="message">
+        Are you annoyed yet?
+        <br />
+        You are playing an Impossible Game!
+      </h5>
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
